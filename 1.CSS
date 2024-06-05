@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('16.jpeg'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: rgb(233, 201, 57);
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top; /* Alineación vertical superior */
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke; /* Color del texto */
+    display: block;
+    text-align: center;
+}
+
+nav a img {
+    width: 200px; /* Ancho fijo */
+    height: 200px; /* Alto fijo */
+    display: block;
+    margin: 0 auto 10px; /* Margen inferior para separar la imagen de la descripción */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
